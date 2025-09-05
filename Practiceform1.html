@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Form 1</title>
+</head>
+<main></main>
+
+<body>
+    <Div>
+        <h1>
+            Student Registration Form
+        </h1>
+        <form action="Form.php">
+            <fieldset>
+                <legend>Fill in this Form to Register</legend>
+            <div>
+                First Name<input type="text" placeholder="Enter your first name" name="myname">
+            </div><br>
+            <div>
+                Last Name <input type="text" placeholder="Enter your last name" name="mylastname">
+            </div><br>
+            <div>
+                E-mail <input type="email" placeholder="Enter your e-mail" name="myemail">
+            </div><br>
+            <div>
+                Date of Birth <input type="date" name="mydateofbirth" id="">
+            </div><br>
+            <div>
+                Set Username <input type="text" placeholder="Set Username" name="myusername" id="">
+            </div><br>
+            <div>
+                Set Password <input type="password" placeholder="set Password" name="mypassword" id="">
+            </div><br>
+            <div>
+                Gender
+                <br><input type="radio" name="mygender" id=""> Male <br>
+                <input type="radio" name="mygender" id=""> Female <br>
+                <input type="radio" name="mygender" id=""> Other <br>
+            </div><br>
+            <div>
+                Food <input type="checkbox" name="Elgiable" id="Elgiablity">
+            </div><br>
+            <div>
+                <Label for="Course">Course</Label>
+                <select name="Course" id="Course">
+                    <option value="English">English</option>
+                    <option value="Urdu">Urdu</option>
+                    <option value="Math">Math</option>
+                    <option value="All">All</option>
+                </select>
+            </div><br>
+             <div>
+                About Yourself <br> <textarea name="Mytext" id="text" rows="10" cols="20"></textarea>
+            </div>
+            <div>
+            <input type="submit" name="Register" id="Register">
+            <input type="reset" name="Reset" id="reset">
+            </div><br>
+           
+            </fieldset>
+
+        </form>
+    </Div>
+</body>
+<footer></footer>
+
+</html>
